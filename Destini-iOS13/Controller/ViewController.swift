@@ -16,7 +16,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let example = Story(title: "You see a fork in the road.",
+                            choice1: "Take a left",
+                            choice2: "Take a right")
     }
 
 
